@@ -106,9 +106,7 @@ if(isset($_POST['submit']))
 
 <body style="background-color : #E59866 ;">
  
-<?php
-  include 'navbar.php';
-?>
+
 
 	<div class="container">
         <h2 class="text-center pt-4" style="color : black;">Transaction</h2>
