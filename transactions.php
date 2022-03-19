@@ -102,7 +102,7 @@
         <br><br>
 
         <div class="container">
-        <h2 class="text-center pt-4" style="color : black;">Transfer Money</h2>
+        <h2 class="text-center pt-4" style="color : black;">Transactions History</h2>
         
        <br><br><br>
        <div class="table-responsive-sm">
