@@ -57,7 +57,7 @@
                 <div class="row align-items-center">
 
                     <div class="col-6 col-xl-2">
-                        <h1 class="mb-0 site-logo"><a href="index.html" class="h2 mb-0">Transaction History<span class="text-primary">.</span>
+                        
               </a></h1>
                     </div>
 
@@ -99,11 +99,12 @@
 
         </header>
 
+        <br><br>
 
         <div class="container">
+        <h2 class="text-center pt-4" style="color : black;">Transfer Money</h2>
         
-        
-       <br>
+       <br><br><br>
        <div class="table-responsive-sm">
     <table class="table table-hover table-striped table-condensed table-bordered">
         <thead style="color : black;">
