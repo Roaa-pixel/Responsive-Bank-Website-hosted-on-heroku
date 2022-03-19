@@ -101,7 +101,7 @@
 
 
         <div class="container">
-        <h2 class="text-center pt-4" style="color : black;">Transaction History</h2>
+        
         
        <br>
        <div class="table-responsive-sm">
@@ -148,44 +148,49 @@
                                 
                             <!-- END comment-list -->
 
-                            <div class="comment-form-wrap pt-5">
-                                <h3 class="mb-5">Leave a comment</h3>
-                                <form action="#" class="p-5 bg-light">
-                                    <div class="form-group">
-                                        <label for="name">Name *</label>
-                                        <input type="text" class="form-control" id="name">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="email">Email *</label>
-                                        <input type="email" class="form-control" id="email">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="website">Website</label>
-                                        <input type="url" class="form-control" id="website">
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="message">Message</label>
-                                        <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="submit" value="Post Comment" class="btn btn-primary">
-                                    </div>
-
-                                </form>
-                            </div>
-                        </div>
-
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-
+           
 
         <footer class="site-footer">
             <div class="container">
-               
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h2 class="footer-heading mb-4">About Us</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+                            </div>
+                            <div class="col-md-3 ml-auto">
+                                <h2 class="footer-heading mb-4">Quick Links</h2>
+                                <ul class="list-unstyled">
+                                    <li><a href="#about-section" class="smoothscroll">Terms</a></li>
+                                    <li><a href="#about-section" class="smoothscroll">Policy</a></li>
+                                    <li><a href="#about-section" class="smoothscroll">About Us</a></li>
+                                    <li><a href="#services-section" class="smoothscroll">Services</a></li>
+                                    <li><a href="#testimonials-section" class="smoothscroll">Testimonials</a></li>
+                                    <li><a href="#contact-section" class="smoothscroll">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 footer-social">
+                                <h2 class="footer-heading mb-4">Follow Us</h2>
+                                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
+                        <form action="#" method="post" class="footer-subscribe">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary text-black" type="button" id="button-addon2">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
                 <div class="row pt-5 mt-5 text-center">
                     <div class="col-md-12">
                         <div class="border-top pt-5">
@@ -206,6 +211,8 @@
     </div>
     <!-- .site-wrap -->
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/popper.min.js"></script>
